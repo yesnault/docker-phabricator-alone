@@ -5,8 +5,10 @@ Dockerfile with debian:jessie / phabricator
 Run
 ----
 ```
-docker run yesnault/docker-phabricator-alone
+docker run -i -d -p 8081:80 yesnault/docker-phabricator-alone
 ```
+See `run-server.sh` for volume mapping.
+
 
 Set DB : 
 ```
