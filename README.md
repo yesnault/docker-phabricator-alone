@@ -1,4 +1,4 @@
-docker-phabricator
+docker-phabricator-alone
 ==================
 Dockerfile with debian:jessie / phabricator
 
